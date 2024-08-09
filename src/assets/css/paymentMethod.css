@@ -1,0 +1,126 @@
+.payment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.payment-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.payment-header {
+  background-color: #103c6b;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 16px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.totalAmount {
+  color: black !important;
+  font-size: 1.5rem;
+}
+.totalAmuntVal {
+  color: red;
+}
+.paymentPaid {
+  color: white !important;
+  background-color: green !important;
+  border-left: 1px solid #a5abaf;
+}
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-transform: uppercase;
+}
+.totalPaid {
+    color: white !important;
+    background-color: green !important;
+}
+.paymentMethod {
+  background-color: #dddd !important;
+  color: rgb(212, 36, 36) !important;
+}
+.paymentMethodVal{
+    color: red !important;
+}
+.payment-label {
+  padding: 12px 16px;
+  background-color: #f1f3f5;
+  font-weight: bold;
+
+  border-bottom: 1px solid #dee2e6;
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+.payment-value {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  text-align: left;
+  padding: 0 20px;
+  width: 50%;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+#change_balance {
+  color: #28a745;
+  font-weight: bold;
+}
+.total-amount-row,
+.payment-method-row {
+  background-color: #adb5bd;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.total-amount-row .payment-value,
+.payment-method-row .payment-value {
+  font-size: 1.3em;
+}
+
+.total-amount-row .payment-label,
+.payment-method-row .payment-label {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .payment-card {
+    max-width: 90%;
+  }
+
+  .payment-header {
+    font-size: 1.2em;
+  }
+
+  .payment-label,
+  .payment-value {
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .payment-card {
+    max-width: 100%;
+  }
+
+  .payment-header {
+    font-size: 1em;
+    padding: 12px;
+  }
+
+  .payment-label,
+  .payment-value {
+    padding: 8px 10px;
+  }
+}

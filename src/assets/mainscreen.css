@@ -1,0 +1,465 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+.main_screen {
+  position: relative;
+}
+
+.fullScreenBtnMain_screen {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: #0f2f4c;
+  border: 1px solid #0f2f4c;
+  transition: 0.26s;
+}
+.fullScreenBtnMain_screen:hover {
+  background-color: #0f2f4c;
+  color: white;
+  border: 1px solid #0f2f4c;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
+.productNames{
+  text-align: left;
+}
+.productQuantity,
+.productPrice,
+.productSubtotal,
+.productNames {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.layout {
+  display: grid;
+  height: 100vh;
+  background-color: #f5f6e1;
+  grid-template-rows: 0.2fr 4fr 1.2fr 1.4fr 1.5fr;
+  grid-template-columns: 4fr 4fr 3fr 3fr;
+  grid-template-areas:
+      "section-3 section-3 section-3 section-3"
+      "section-5 section-5 section-5 section-5"
+      "section-5 section-5 section-5 section-5"
+} 
+ 
+.section-1 {
+  grid-area: section-1;
+  background-color: #fff;
+  font-size: 16px;
+  margin: 2px;
+  overflow: hidden;
+  position: relative;
+  overflow: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.section-2 {
+  grid-area: section-2;
+  background-color: #fff;
+  font-size: 16px;
+  margin: 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.section-3 {
+  grid-area: section-3;
+  background-color: #fff;
+  margin: 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.section-4 {
+  grid-area: section-4;
+  background-color: #fff;
+  font-size: 16px;
+  margin: 2px;
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.section-5 {
+  text-align: left;
+  grid-area: section-5;
+  font-size: 16px;
+  margin: 2px;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.layout-section-4 {
+  display: grid;
+  height: 100%;
+  background-color: #f1f1f1;
+  grid-template-rows: 0fr 0fr 4fr 4fr;
+  grid-template-columns: 4fr 4fr 4fr 3fr;
+  grid-template-areas:
+      "section-41 section-41 section-41 section-41"
+      "section-41 section-41 section-41 section-41"
+      "section-42 section-42 section-42 section-42"
+      "section-42 section-42 section-42 section-42";
+}
+
+.section-41 {
+  grid-area: section-41;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.section-42 {
+  grid-area: section-42;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.layout-section-2 {
+  display: grid;
+  height: 100%;
+  background-color: #f1f1f1;
+  grid-template-rows: 3fr 3fr 3fr 3fr;
+  grid-template-columns: 4fr 4fr 4fr 3fr;
+  grid-template-areas:
+      "section-21 section-21 section-22 section-22"
+      "section-21 section-21 section-22 section-22"
+      "section-21 section-21 section-22 section-22"
+      "section-21 section-21 section-22 section-22";
+}
+
+.section-21 {
+  grid-area: section-21;
+  background-color: #fff;
+}
+
+.section-22 {
+  grid-area: section-22;
+}
+
+.overflow-scroll {
+  height: 100%;
+  overflow: scroll;
+}
+
+.table-main {
+  width: 100%;
+  overflow: scroll;
+  border-collapse: collapse;
+}
+
+.table-main td {
+  border: 1px solid #6e818b;
+  padding: 5px;
+}
+
+.table-main th {
+  padding: 5px;
+  background-color: #0f2f4c;
+  position: sticky;
+  top: 0;
+  color: white;
+  font-size: 1.6vw;
+  text-align: left;
+  border: 1px solid #6e818b;
+}
+
+.table-main tr {
+  border: 1px solid rgb(7, 7, 7);
+  padding: 5px;
+}
+
+.custom-table {
+  width: 100%;
+  overflow: scroll;
+  border-collapse: collapse;
+}
+
+.custom-table td {
+  border: 1px solid #6e818b;
+  padding: 2px;
+}
+
+.custom-table th {
+  padding: 10px;
+  background-color: #0f2f4c;
+  position: sticky;
+  top: 0;
+  color: white;
+  font-size: 1.5vw;
+  border: 1px solid #6e818b;
+}
+
+.custom-table tr {
+  border: 1px solid rgb(7, 7, 7) !important;
+  padding: 2px;
+}
+
+.table-main-2 {
+  width: 100%;
+  overflow: scroll;
+}
+
+.table-main-2 td {
+  border: 1px solid #d6d6d6;
+}
+
+.table-main-2 th {
+  border: 2px solid #cfcfcf inset;
+  background-color: #c3c3c3;
+}
+
+.table-main-2 tr {
+  border: 1px solid rgb(7, 7, 7);
+}
+
+.table-main-weight {
+  width: 100%;
+  overflow: scroll;
+  table-layout: fixed;
+}
+
+.table-main-weight td {
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+}
+
+.table-main-weight th {
+  border: 2px solid #cfcfcf inset;
+  padding: 10px;
+  background-color: #c3c3c3;
+}
+
+.table-main-weight tr {
+  border: 1px solid rgb(7, 7, 7);
+  padding: 10px;
+}
+
+.total {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  bottom: 10vh;
+}
+
+.pd-left-right {
+  padding-right: unset !important;
+  padding-left: unset !important;
+}
+
+.image-container {
+  width: 20%;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#product_total,
+#amount_total,
+#amount_saving,
+#amount_tax,
+#total_payable,
+#total_weight {
+  background-color: whitesmoke;
+  padding-left: 10px;
+  color: green;
+  font-size: 1.6rem;
+  text-align: left;
+}
+#product_total{
+  color: black;
+}
+#total_payable{
+  color: red;
+}
+
+.todayLoyalTh{
+  text-align: left;
+  font-size: 12px;
+  width: 60%;
+  padding-left: 5px;
+  text-transform: uppercase;
+
+}
+.thTitle{
+  width: 60%;
+  text-transform: uppercase;
+}
+#name, 
+#customer_loyalty_point,
+#loyalty_point{
+  background-color: whitesmoke;
+  color: green;
+  border: 1px solid rgb(7, 7, 7);
+  text-align: left;
+
+}
+.productWidth {
+  width: 55%;
+}
+
+.priceWidth {
+  width: 15%;
+}
+
+.wgtQtyWidth {
+  width: 10%;
+}
+
+.subtotalWidth {
+  width: 20%;
+}
+
+
+ 
+@media screen and (orientation: portrait) {
+  body {
+    background-image: url("./static/img/customerscreenPotrait.png") !important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+  }
+
+  .table-main th {
+    background-color: #0f2f4c;
+    position: sticky;
+    top: 0;
+    color: white;
+    font-size: 2.5vw;
+    text-align: left;
+    border: 1px solid #6e818b;
+    text-transform: uppercase;
+  }
+
+  .custom-table th {
+    padding: 10px;
+    background-color: #0f2f4c;
+    position: sticky;
+    top: 0;
+    color: white;
+    font-size: 1.7vw;
+    border: 1px solid #6e818b;
+  }
+
+  .productsText {
+    font-size: 1.6vw;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .table-main tr {
+    padding: 4px;
+    font-size: 2.9vw;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+    text-align: left;
+    text-transform: uppercase;
+    word-break: break-all;
+  }
+
+  .table-main td {
+    border: 1px solid #6e818b;
+    padding: 6px;
+  }
+
+  .table-main .thTitle {
+    font-size: 2.6vw !important;
+    padding: 10px 10px 10px 5px;
+  
+  }
+
+  .productName {
+    font-size: 2.7vw !important;
+    text-transform: uppercase !important;
+  }
+
+  .productPrice {
+    font-size: 2.3vw;
+  }
+
+  .productWidth {
+    width: 55%;
+  }
+
+  .priceWidth {
+    width: 15%;
+  }
+
+  .wgtQtyWidth {
+    width: 10%;
+  }
+
+  .subtotalWidth {
+    width: 20%;
+  }
+  .todayLoyalTh {
+    font-size: 2.2vw !important;
+    overflow-wrap: anywhere;
+    text-align: left;
+    text-transform: uppercase;
+    word-break: break-all;
+    text-transform: capitalize !important;
+  }
+  #name,
+  #customer_loyalty_point,
+  #loyalty_point {
+    font-size: 2.5vw !important;
+    overflow-wrap: anywhere;
+    text-align: left;
+    text-transform: uppercase;
+    word-break: break-all;
+  }
+
+  #product_total,
+  #amount_total,
+  #amount_saving,
+  #amount_tax,
+  #total_payable,
+  #total_weight {
+    font-size: 2.9vmin;
+    background-color: #dddd;
+  }
+
+  #total_payable {
+    font-size: 3vmin;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  body {
+    background-image: url("./static/img/customerscreenLandscape.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+  }
+} 

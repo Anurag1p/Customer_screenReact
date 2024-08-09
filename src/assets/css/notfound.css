@@ -1,0 +1,133 @@
+/* Container Styles */
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title Styles */
+  .title {
+    font-size: 10rem;
+    color: #ff6b6b;
+    margin: 0;
+  }
+  
+  /* Subtitle Styles */
+  .subtitle {
+    font-size: 2rem;
+    color: #333;
+    margin: 10px 0 20px;
+  }
+  
+  /* Animation Wrapper Styles */
+  .animation-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Ghost Animation */
+  .ghost {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50% 50% 0 0;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .ghost::before,
+  .ghost::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+  }
+  
+  .ghost::before {
+    left: 20px;
+    border-radius: 50% 50% 0 0;
+  }
+  
+  .ghost::after {
+    right: 20px;
+    border-radius: 50% 50% 0 0;
+  }
+  
+  /* Ghost Face */
+  .face {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  
+  /* Shadow Animation */
+  .shadow {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    animation: shadow 3s ease-in-out infinite;
+  }
+  
+  /* Message Styles */
+  .message {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 20px 0;
+  }
+  
+  /* Home Button Styles */
+  .home-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #ff4757;
+  }
+  
+  /* Animations */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) translateX(-50%);
+    }
+    50% {
+      transform: translateY(-20px) translateX(-50%);
+    }
+  }
+  
+  @keyframes shadow {
+    0%, 100% {
+      transform: scale(1) translateX(-50%);
+    }
+    50% {
+      transform: scale(0.8) translateX(-50%);
+    }
+  }
+  

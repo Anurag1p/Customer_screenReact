@@ -1,0 +1,85 @@
+
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    margin: 10vh auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+}
+
+.overflow-scroll {
+    height: 100%;
+    overflow: scroll;
+}
+
+.table-main {
+    height: 80%;
+    width: 100%;
+    margin: 10vh auto;
+    overflow: scroll;
+}
+
+.table-main td,
+th {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.table-main tr {
+    border: 1px solid white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.total {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    bottom: 10vh;
+}
+
+.img {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10vh 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(73, 149, 180, 0.8);
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 155, 216, 0.8);
+    opacity: 0.2;
+}
+
+.pd-left-right {
+    padding-right: unset !important;
+    padding-left: unset !important;
+}

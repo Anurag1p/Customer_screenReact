@@ -1,0 +1,162 @@
+2024-08-08 19:23:59 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\customer_screen\node_modules\node-windows\lib\wrapper.js --file D:\customer_screen\startProject.js --scriptoptions= --log "customerScreen_reactjs wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-08 19:23:59 - Started 7612
+2024-08-08 19:24:54 - Stopping customerscreen_reactjs.exe
+2024-08-08 19:24:54 - ProcessKill 7612
+2024-08-08 19:24:54 - Found child process: 17084 Name: conhost.exe
+2024-08-08 19:24:54 - Found child process: 11716 Name: node.exe
+2024-08-08 19:24:54 - Stopping process 17084
+2024-08-08 19:24:54 - Send SIGINT 17084
+2024-08-08 19:24:54 - SIGINT to 17084 failed - Killing as fallback
+2024-08-08 19:24:54 - Found child process: 16224 Name: cmd.exe
+2024-08-08 19:24:54 - Found child process: 14760 Name: conhost.exe
+2024-08-08 19:24:54 - Found child process: 12520 Name: node.exe
+2024-08-08 19:24:54 - Stopping process 14760
+2024-08-08 19:24:54 - Send SIGINT 14760
+2024-08-08 19:24:54 - SIGINT to 14760 failed - Killing as fallback
+2024-08-08 19:24:54 - Found child process: 5720 Name: cmd.exe
+2024-08-08 19:24:55 - Found child process: 15728 Name: node.exe
+2024-08-08 19:24:55 - Found child process: 1792 Name: node.exe
+2024-08-08 19:24:55 - Stopping process 1792
+2024-08-08 19:24:55 - Send SIGINT 1792
+2024-08-08 19:24:55 - SIGINT to 1792 failed - Killing as fallback
+2024-08-08 19:24:55 - Stopping process 15728
+2024-08-08 19:24:55 - Send SIGINT 15728
+2024-08-08 19:24:55 - SIGINT to 15728 failed - Killing as fallback
+2024-08-08 19:24:55 - Stopping process 5720
+2024-08-08 19:24:55 - Send SIGINT 5720
+2024-08-08 19:24:55 - SIGINT to 5720 failed - Killing as fallback
+2024-08-08 19:24:55 - Stopping process 12520
+2024-08-08 19:24:55 - Send SIGINT 12520
+2024-08-08 19:24:55 - SIGINT to 12520 failed - Killing as fallback
+2024-08-08 19:24:55 - Stopping process 16224
+2024-08-08 19:24:55 - Send SIGINT 16224
+2024-08-08 19:24:55 - SIGINT to 16224 failed - Killing as fallback
+2024-08-08 19:24:55 - Stopping process 11716
+2024-08-08 19:24:55 - Send SIGINT 11716
+2024-08-08 19:24:55 - SIGINT to 11716 failed - Killing as fallback
+2024-08-08 19:24:55 - Stopping process 7612
+2024-08-08 19:24:55 - Send SIGINT 7612
+2024-08-08 19:24:55 - SIGINT to 7612 failed - Killing as fallback
+2024-08-08 19:24:55 - Finished customerscreen_reactjs.exe
+2024-08-08 19:25:04 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\customer_screen\node_modules\node-windows\lib\wrapper.js --file D:\customer_screen\startProject.js --scriptoptions= --log "customerScreen_reactjs wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-08 19:25:04 - Started 16440
+2024-08-09 10:17:08 - Stopping customerscreen_reactjs.exe
+2024-08-09 10:17:08 - ProcessKill 16440
+2024-08-09 10:17:09 - Found child process: 3676 Name: conhost.exe
+2024-08-09 10:17:09 - Found child process: 16556 Name: node.exe
+2024-08-09 10:17:09 - Stopping process 3676
+2024-08-09 10:17:09 - Send SIGINT 3676
+2024-08-09 10:17:09 - SIGINT to 3676 failed - Killing as fallback
+2024-08-09 10:17:09 - Found child process: 4040 Name: cmd.exe
+2024-08-09 10:17:09 - Found child process: 9384 Name: conhost.exe
+2024-08-09 10:17:09 - Found child process: 9788 Name: node.exe
+2024-08-09 10:17:10 - Stopping process 9384
+2024-08-09 10:17:10 - Send SIGINT 9384
+2024-08-09 10:17:10 - SIGINT to 9384 failed - Killing as fallback
+2024-08-09 10:17:10 - Found child process: 7424 Name: cmd.exe
+2024-08-09 10:17:10 - Found child process: 12564 Name: node.exe
+2024-08-09 10:17:10 - Found child process: 11972 Name: node.exe
+2024-08-09 10:17:10 - Stopping process 11972
+2024-08-09 10:17:10 - Send SIGINT 11972
+2024-08-09 10:17:10 - SIGINT to 11972 failed - Killing as fallback
+2024-08-09 10:17:10 - Stopping process 12564
+2024-08-09 10:17:10 - Send SIGINT 12564
+2024-08-09 10:17:10 - SIGINT to 12564 failed - Killing as fallback
+2024-08-09 10:17:10 - Stopping process 7424
+2024-08-09 10:17:10 - Send SIGINT 7424
+2024-08-09 10:17:10 - SIGINT to 7424 failed - Killing as fallback
+2024-08-09 10:17:10 - Stopping process 9788
+2024-08-09 10:17:10 - Send SIGINT 9788
+2024-08-09 10:17:10 - SIGINT to 9788 failed - Killing as fallback
+2024-08-09 10:17:10 - Stopping process 4040
+2024-08-09 10:17:10 - Send SIGINT 4040
+2024-08-09 10:17:10 - SIGINT to 4040 failed - Killing as fallback
+2024-08-09 10:17:10 - Stopping process 16556
+2024-08-09 10:17:10 - Send SIGINT 16556
+2024-08-09 10:17:10 - SIGINT to 16556 failed - Killing as fallback
+2024-08-09 10:17:10 - Stopping process 16440
+2024-08-09 10:17:10 - Send SIGINT 16440
+2024-08-09 10:17:10 - SIGINT to 16440 failed - Killing as fallback
+2024-08-09 10:17:10 - Finished customerscreen_reactjs.exe
+2024-08-09 10:17:11 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\customer_screen\node_modules\node-windows\lib\wrapper.js --file D:\customer_screen\startProject.js --scriptoptions= --log "customerScreen_reactjs wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-09 10:17:11 - Started 836
+2024-08-09 10:33:51 - Stopping customerscreen_reactjs.exe
+2024-08-09 10:33:51 - ProcessKill 836
+2024-08-09 10:33:51 - Found child process: 16512 Name: conhost.exe
+2024-08-09 10:33:51 - Found child process: 612 Name: node.exe
+2024-08-09 10:33:52 - Stopping process 16512
+2024-08-09 10:33:52 - Send SIGINT 16512
+2024-08-09 10:33:52 - SIGINT to 16512 failed - Killing as fallback
+2024-08-09 10:33:52 - Found child process: 14484 Name: cmd.exe
+2024-08-09 10:33:52 - Found child process: 16612 Name: conhost.exe
+2024-08-09 10:33:52 - Found child process: 824 Name: node.exe
+2024-08-09 10:33:52 - Stopping process 16612
+2024-08-09 10:33:52 - Send SIGINT 16612
+2024-08-09 10:33:52 - SIGINT to 16612 failed - Killing as fallback
+2024-08-09 10:33:52 - Found child process: 11932 Name: cmd.exe
+2024-08-09 10:33:52 - Found child process: 1452 Name: node.exe
+2024-08-09 10:33:52 - Found child process: 2828 Name: node.exe
+2024-08-09 10:33:52 - Stopping process 2828
+2024-08-09 10:33:52 - Send SIGINT 2828
+2024-08-09 10:33:52 - SIGINT to 2828 failed - Killing as fallback
+2024-08-09 10:33:52 - Stopping process 1452
+2024-08-09 10:33:52 - Send SIGINT 1452
+2024-08-09 10:33:52 - SIGINT to 1452 failed - Killing as fallback
+2024-08-09 10:33:52 - Stopping process 11932
+2024-08-09 10:33:52 - Send SIGINT 11932
+2024-08-09 10:33:52 - SIGINT to 11932 failed - Killing as fallback
+2024-08-09 10:33:52 - Stop exception
+Message:Access is denied
+Stacktrace:   at System.Diagnostics.Process.Kill()
+   at winsw.WrapperService.StopProcess(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnStop()
+2024-08-09 10:33:53 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\customer_screen\node_modules\node-windows\lib\wrapper.js --file D:\customer_screen\startProject.js --scriptoptions= --log "customerScreen_reactjs wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-09 10:33:53 - Started 12344
+2024-08-09 10:43:34 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\customer_screen\node_modules\node-windows\lib\wrapper.js --file D:\customer_screen\startProject.js --scriptoptions= --log "customerScreen_reactjs wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-09 10:43:34 - Started 5200
+2024-08-09 10:48:13 - Stopping customerscreen_reactjs.exe
+2024-08-09 10:48:13 - ProcessKill 5200
+2024-08-09 10:48:13 - Found child process: 12692 Name: conhost.exe
+2024-08-09 10:48:13 - Found child process: 16328 Name: node.exe
+2024-08-09 10:48:13 - Stopping process 12692
+2024-08-09 10:48:13 - Send SIGINT 12692
+2024-08-09 10:48:13 - SIGINT to 12692 failed - Killing as fallback
+2024-08-09 10:48:13 - Found child process: 17216 Name: cmd.exe
+2024-08-09 10:48:13 - Found child process: 12076 Name: conhost.exe
+2024-08-09 10:48:13 - Found child process: 8252 Name: node.exe
+2024-08-09 10:48:13 - Stopping process 12076
+2024-08-09 10:48:13 - Send SIGINT 12076
+2024-08-09 10:48:13 - SIGINT to 12076 failed - Killing as fallback
+2024-08-09 10:48:13 - Found child process: 11872 Name: cmd.exe
+2024-08-09 10:48:13 - Found child process: 10212 Name: node.exe
+2024-08-09 10:48:13 - Found child process: 12640 Name: node.exe
+2024-08-09 10:48:13 - Stopping process 12640
+2024-08-09 10:48:13 - Send SIGINT 12640
+2024-08-09 10:48:13 - SIGINT to 12640 failed - Killing as fallback
+2024-08-09 10:48:13 - Stopping process 10212
+2024-08-09 10:48:13 - Send SIGINT 10212
+2024-08-09 10:48:13 - SIGINT to 10212 failed - Killing as fallback
+2024-08-09 10:48:13 - Stopping process 11872
+2024-08-09 10:48:13 - Send SIGINT 11872
+2024-08-09 10:48:13 - SIGINT to 11872 failed - Killing as fallback
+2024-08-09 10:48:13 - Stopping process 8252
+2024-08-09 10:48:13 - Send SIGINT 8252
+2024-08-09 10:48:13 - SIGINT to 8252 failed - Killing as fallback
+2024-08-09 10:48:13 - Stopping process 17216
+2024-08-09 10:48:13 - Send SIGINT 17216
+2024-08-09 10:48:13 - SIGINT to 17216 failed - Killing as fallback
+2024-08-09 10:48:13 - Stop exception
+Message:Access is denied
+Stacktrace:   at System.Diagnostics.Process.Kill()
+   at winsw.WrapperService.StopProcess(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnStop()

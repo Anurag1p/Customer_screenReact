@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.fullBody {
+    background-image: url("./static/img/customerscreenLandscape.png") !important;
+
+}
+
+
+
+
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url("./static/img/customerscreenPotrait.png") !important;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 95vh;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-image: url("./static/img/customerscreenLandscape.png") !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 95vh;
+    }
+}
