@@ -93,6 +93,15 @@
 .payment-method-row .payment-label {
   font-weight: bold;
 }
+.method-name {
+  color: blue;
+  font-weight: bold;
+}
+
+.method-payment {
+  color: green;
+}
+
 
 @media (max-width: 768px) {
   .payment-card {

@@ -1,47 +1,44 @@
-
-
-
-
 import React, { useState, useEffect } from 'react';
-import "../assets/css/paymentMethod.css"
+import "../assets/css/paymentMethod.css";
+
 const PaymentMethodComponent = ({ paymentData }) => {
     const [paymentDetails, setPaymentDetails] = useState({
         name: 'N/A',
         loyaltyPoint: 0,
         totalAmount: 0,
         totalPaid: 0,
-        paymentMethod: '',
+        paymentMethod: [],
         changeBalance: 0,
     });
 
     useEffect(() => {
         if (paymentData) {
-            const paymentSummary = paymentData.payment_method.reduce((acc, method) => {
+            const paymentSummary = paymentData?.payment_method?.reduce((acc, method) => {
                 if (acc[method.name]) {
-                    acc[method.name] += method.payment;
+                    acc[method.name] += method.amount;
                 } else {
-                    acc[method.name] = method.payment;
+                    acc[method.name] = method.amount;
                 }
                 return acc;
             }, {});
-
-            const paymentMethodString = Object.entries(paymentSummary)
-                .map(([name, payment]) => `${name}: $${payment.toFixed(2)}`)
-                .join(', ');
+            
+            const paymentMethodArray = Object.entries(paymentSummary).map(([name, payment]) => (
+                `${name}: $${payment.toFixed(2)}`
+            ));
 
             setPaymentDetails({
                 name: paymentData?.name || 'N/A',
                 loyaltyPoint: paymentData?.Loyalty_Point || 0,
                 totalAmount: paymentData?.total_amount || 0,
                 totalPaid: paymentData?.total_paid || 0,
-                paymentMethod: paymentMethodString,
+                paymentMethod: paymentMethodArray,
                 changeBalance: paymentData?.change || 0,
             });
         }
     }, [paymentData]);
 
     return (
-   <div className="payment-container">
+        <div className="payment-container">
             <div className="payment-card">
                 <div className="payment-header">
                     Payment Details
@@ -50,36 +47,37 @@ const PaymentMethodComponent = ({ paymentData }) => {
                     <tbody>
                         <tr>
                             <td className="payment-label">Name:</td>
-                            <th id="name_payment" className="payment-value">{paymentDetails.name}</th>
-
+                            <th id="name_payment" className="payment-value">{paymentDetails?.name}</th>
                         </tr>
                         <tr>
                             <td className="payment-label">Loyalty Points:</td>
                             <td id="loyalty_point_payment" className="payment-value">{paymentDetails?.loyaltyPoint}</td>
                         </tr>
-                        <tr >
-                            <td className="payment-label ">Total Amount:</td>
-                            <td id="amount_total_payment " className="payment-value totalAmuntVal">${paymentDetails.totalAmount.toFixed(2)}</td>
-                        </tr>
-                        <tr >
-                            <td className="payment-label totalPaid">Total Paid:</td>
-                            <td id="total_paid" className="payment-value paymentPaid">${paymentDetails.totalPaid.toFixed(2)}</td>
+                        <tr>
+                            <td className="payment-label">Total Amount:</td>
+                            <td id="amount_total_payment" className="payment-value totalAmuntVal">${paymentDetails?.totalAmount.toFixed(2)}</td>
                         </tr>
                         <tr>
-                            <td className="payment-label paymentMethod">Payment Method:</td>
-                            <td id="method_of_payment" className="payment-value paymentMethodVal">{paymentDetails.paymentMethod}</td>
+                            <td className="payment-label totalPaid">Total Paid:</td>
+                            <td id="total_paid" className="payment-value paymentPaid">${paymentDetails?.totalPaid.toFixed(2)}</td>
                         </tr>
+                        
+                            <tr >
+                                <td className="payment-label paymentMethod">Payment Method:</td>
+                                <td id="method_of_payment" className="payment-value paymentMethodVal">
+                                {paymentDetails?.paymentMethod.map((method, index) => (   <tr key={index}className='payment-value' style={{width:"100%"}}>{method} </tr>   ))}
+                                </td>
+                            </tr>
+                     
                         <tr>
                             <td className="payment-label">Change:</td>
-                            <td id="change_balance" className="payment-value">{paymentDetails.changeBalance}</td>
+                            <td id="change_balance" className="payment-value">${paymentDetails?.changeBalance}</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-
     );
 };
 
 export default PaymentMethodComponent;
-
